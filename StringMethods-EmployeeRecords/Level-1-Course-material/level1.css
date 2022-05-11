@@ -1,0 +1,17 @@
+#header {
+    text-align: center;
+}
+
+#theBox {
+    position: relative;
+    left: 17%;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-width: 10px;
+    border-style: groove;
+    border-radius: 8px;
+    color: transparent;
+    height: 35rem;
+    width: 45rem;
+}

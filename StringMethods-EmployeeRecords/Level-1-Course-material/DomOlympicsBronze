@@ -1,0 +1,27 @@
+var newHeader = document.getElementById("header")
+
+newHeader.innerHTML = "<span id=topLine>JavaScript Made This!! </span> <br> <br> <span id=secondLine> <span id=myName>Joey Gambill</span> wrote the JavaScript</span>"
+
+newHeader.style.textAlign = "center"
+newHeader.style.textAlign = "center"
+newHeader.style.fontSize = "20px"
+
+topLine.style.fontSize = "40px"
+topLine.style.fontWeight = "Bolder"
+
+secondLine.style.fontSize = "26px"
+secondLine.style.fontWeight = "bold"
+
+myName.style.color = "#1e90ff"
+
+let clrBtn = document.getElementById("clear-button")
+
+let textBox = document.querySelector(".messages")
+
+
+
+function clearAllBtn(){
+  textBox.textContent = " "  
+}
+
+clrBtn.addEventListener("click", clearAllBtn)

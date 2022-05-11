@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3F51B5;
+    font-size:30px;
+}
+
+.navbar li {
+    display: inline-block;
+    color:red;
+    
+}
+
+.welcome {
+    text-decoration: underline;
+    color:gold;
+}
+
+.code-photo {
+    max-width: 600px;
+    float: center;
+}
+
+.list {
+    clear: both;
+}
+
+.fake-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
